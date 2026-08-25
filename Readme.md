@@ -1,4 +1,4 @@
-# Arsalan AI
+# ChatBot AI
 
 A chatbot application built with Streamlit, LangChain, and Mistral AI, with persistent conversation history stored in PostgreSQL.
 
