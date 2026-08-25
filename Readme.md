@@ -2,6 +2,8 @@
 
 A chatbot application built with Streamlit, LangChain, and Mistral AI, with persistent conversation history stored in PostgreSQL.
 
+![ChatBot AI interface](assets/ChatBot.png)
+
 ## Features
 
 - Real-time chat interface powered by Mistral's `mistral-small` model
@@ -27,6 +29,7 @@ A chatbot application built with Streamlit, LangChain, and Mistral AI, with pers
 .
 ├── app.py              # Main Streamlit application
 ├── crud.py             # Database operations (create, read, update, delete chats/messages)
+├── assets/              # Screenshots and static assets
 ├── .env                 # Environment variables (not committed)
 ├── requirements.txt    # Python dependencies
 └── README.md
@@ -45,8 +48,8 @@ A chatbot application built with Streamlit, LangChain, and Mistral AI, with pers
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/<your-username>/arsalan-ai.git
-   cd arsalan-ai
+   git clone https://github.com/Arsalan5629/GenAi-ChatBot.git
+   cd GenAi-ChatBot
    ```
 
 2. Create and activate a virtual environment
@@ -99,6 +102,3 @@ Made by Arsalan
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-
-![alt text](ChatBot.png)
