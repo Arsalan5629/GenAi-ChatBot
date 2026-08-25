@@ -24,7 +24,7 @@ load_dotenv()
 
 
 st.set_page_config(
-    page_title="Arsalan AI",
+    page_title="AI ChatBot",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
